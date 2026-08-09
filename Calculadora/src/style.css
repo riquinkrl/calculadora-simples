@@ -1,0 +1,62 @@
+/* Reseta margens e define a fonte */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+/* Fundo escuro (quase preto) da página */
+body {
+    background-color: #181419;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+/* Estilização da Tabela (Corpo da Calculadora) */
+table {
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.6);
+    width: 240px;
+    background-color: #4a1975; /* Borda/moldura roxa */
+}
+
+/* Visor escuro no topo */
+.visor {
+    background-color: #120e14;
+    color: #ffffff; /* Cor clara do número do visor */
+    text-align: right;
+    padding: 20px 18px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Estilo padrão de todos os botões em negrito */
+button {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #231c26;
+    background-color: #18131c; /* Botões numéricos escuros */
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #2b2230;
+}
+
+.btn-op {
+    background-color: #8e24aa;
+    color: white;
+    border: 1px solid #7b1fa2;
+}
+
+
