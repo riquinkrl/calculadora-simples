@@ -70,7 +70,7 @@ export function calcular(): void {
         }
     }
 
-    valorAtual = resultado.toString();
+    valorAtual = parseFloat(resultado.toFixed(10)).toString();
     operacaoPendente = null;
     valorAnterior = null;
     limpandoVisor = true;
